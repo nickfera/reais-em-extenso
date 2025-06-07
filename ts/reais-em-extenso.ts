@@ -2,7 +2,7 @@ const classesSingulares: string[] = [
   "mil",
   "milhão",
   "bilhão",
-  "trilhões",
+  "trilhão",
   "quatrilhão",
 ];
 
