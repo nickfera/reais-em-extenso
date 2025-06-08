@@ -100,7 +100,7 @@ function extenso(num: number): string {
 
   const partesInt: string[] = [];
 
-  const abs = Math.abs(num);
+  const abs = Math.abs(Math.round((num * 100) / 100));
   const int = Math.trunc(abs);
 
   if (int > 0) {
